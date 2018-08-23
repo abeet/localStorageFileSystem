@@ -1,0 +1,3 @@
+# localStorageFileSystem
+用localStorage实现文件系统，是node.js中fs的各接口在浏览器中的兼容实现
+为使用indexDB的原因是，indexDB只能异步操作，无法实现`readFileSync`,`writeFileSync`等同步方法
